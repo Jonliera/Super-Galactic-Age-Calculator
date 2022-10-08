@@ -21,7 +21,7 @@ getJupiter(){
    }
 
 getMercuryExpect(){
-    //  return this.lifeExpectancy /.24;
+      return this.lifeExpectancy /.24;
 }
 
 //   checkType() {
