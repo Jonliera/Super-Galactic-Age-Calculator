@@ -17,7 +17,7 @@ getMars(){
    }
 
 getJupiter(){
-    // return this.age /11.86;
+    return this.age /11.86;
    }
 //   checkType() {
 //     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
