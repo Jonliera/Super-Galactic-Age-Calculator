@@ -12,6 +12,10 @@ getVenus(){
     return this.age /.62;
    }
 
+   getMars(){
+    // return this.age /1.88;
+   }
+
 //   checkType() {
 //     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
 //       return "not a triangle";
