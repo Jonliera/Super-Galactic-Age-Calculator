@@ -4,16 +4,16 @@ import Calculator from '../src/js/calculator.js';
 
 describe('Calculator', () => {
 
- test('should correctly create a calculator object with a user age and users life expectancy', () => {
+test('should correctly create a calculator object with a user age and users life expectancy', () => {
      const calculator = new Calculator(41,80);
      expect(calculator.age).toEqual(41);
      expect(calculator.lifeExpectancy).toEqual(80);
 
 });
-// test('should correctly determine whether three lengths are not a triangle', () => {
-//     const notTriangle = new Triangle(3,9,22);
-//     expect(notTriangle.checkType()).toEqual("not a triangle");
-// });
+test('should correctly return the users age in mercury years /.24', () => {
+     const newInput = new Calculator(41,80);
+     expect(newInput.getMercury()).toEqual(41/.24);
+ });
 // test('should correctly determine whether three lengths make a scalene triangle', () => {
 //     const scalTriangle = new Triangle(4,5,7)
 //     expect(scalTriangle.checkType()).toEqual("scalene triangle");

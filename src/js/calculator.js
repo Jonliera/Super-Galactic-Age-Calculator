@@ -1,9 +1,12 @@
 export default class Calculator {
    constructor(age,lifeExpectancy) {
-      this.age = age;
+    this.age = age;
     this.lifeExpectancy = lifeExpectancy ;
+}
 
-   }
+getMercury(){
+    // return this.age /.24;
+}
 
 //   checkType() {
 //     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
