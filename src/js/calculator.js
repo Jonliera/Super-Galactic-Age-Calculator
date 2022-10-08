@@ -1,7 +1,7 @@
 export default class Calculator {
    constructor(age,lifeExpectancy) {
     this.age = age;
-    this.lifeExpectancy = lifeExpectancy ;
+    this.lifeExpectancy = lifeExpectancy;
 }
 
 getMercury(){
@@ -16,6 +16,9 @@ getMars(){
     return this.age /1.88;
    }
 
+getJupiter(){
+    // return this.age /11.86;
+   }
 //   checkType() {
 //     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
 //       return "not a triangle";
