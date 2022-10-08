@@ -1,33 +1,15 @@
-// import Rectangle from '../src/js/rectangle.js';
-
-// ddescribe('Rectangle', () => {
-//     let rectangle;
-  
-//     beforeEach(() => {
-//       rectangle = new Rectangle(3,5);
-//     });
-  
-//     test('should correctly create a rectangle object using two sides', () => {
-//       expect(rectangle.side1).toEqual(3);
-//       expect(rectangle.side2).toEqual(5);
-//     });
-  
-//     test('should correctly get the area of a rectangle object', () => {
-//       expect(rectangle.getArea()).toEqual(15);
-//     });
-//   });
-
+import Calculator from '../src/js/calculator.js';
 
 // import Triangle from './../src/js/triangle.js';
 
-// describe('Triangle', () => {
+describe('Calculator', () => {
 
-// test('should correctly create a triangle object with three lengths', () => {
-//     const triangle = new Triangle(2,4,5);
-//     expect(triangle.side1).toEqual(2);
-//     expect(triangle.side2).toEqual(4);
-//     expect(triangle.side3).toEqual(5);
-// });
+ test('should correctly create a calculator object with a user age and users life expectancy', () => {
+     const calculator = new Calculator(41,80);
+     expect(calculator.age).toEqual(41);
+     expect(calculator.lifeExpectancy).toEqual(80);
+
+});
 // test('should correctly determine whether three lengths are not a triangle', () => {
 //     const notTriangle = new Triangle(3,9,22);
 //     expect(notTriangle.checkType()).toEqual("not a triangle");
@@ -57,4 +39,22 @@
 //         console.log(reusableTriangle);
 //       });
 //   });
-// });
+ });
+
+
+// describe('Calcuilator', () => {
+//     let rectangle;
+  
+//     beforeEach(() => {
+//       rectangle = new Rectangle(3,5);
+//     });
+  
+//     test('should correctly create a rectangle object using two sides', () => {
+//       expect(rectangle.side1).toEqual(3);
+//       expect(rectangle.side2).toEqual(5);
+//     });
+  
+//     test('should correctly get the area of a rectangle object', () => {
+//       expect(rectangle.getArea()).toEqual(15);
+//     });
+//   });
