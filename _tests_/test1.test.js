@@ -3,27 +3,40 @@ import Calculator from '../src/js/calculator.js';
 describe('Calculator', () => {
 
 test('should correctly create a calculator object with a user age and users life expectancy', () => {
-     const calculator = new Calculator(41,80);
+     const calculator = new Calculator(41,100);
      expect(calculator.age).toEqual(41);
-     expect(calculator.lifeExpectancy).toEqual(80);
+     expect(calculator.lifeExpectancy).toEqual(100);
 
 });
 test('should correctly return the users age in mercury years /.24', () => {
-     const newInput = new Calculator(41,80);
+     const newInput = new Calculator(41,100);
      expect(newInput.getMercury()).toEqual(41/.24);
  });
 test('should correctly return the users age in venus years /.62', () => {
-  const newInput = new Calculator(41,80);
+  const newInput = new Calculator(41,100);
   expect(newInput.getVenus()).toEqual(41/.62);
 });
 test('should correctly return the users age in venus years /1.88', () => {
-  const newInput = new Calculator(41,80);
+  const newInput = new Calculator(41,100);
   expect(newInput.getMars()).toEqual(41/1.88);
 });
 test('should correctly return the users age in venus years /11.86', () => {
-  const newInput = new Calculator(41,80);
+  const newInput = new Calculator(41,100);
   expect(newInput.getJupiter()).toEqual(41/11.86);
 });
+test('should correctly return life expectancy on mercury', () => {
+   const newInput = new Calculator(41,100);
+  expect(newInput.getMercuryExpect()).toEqual(100/.24);
+});
+
+
+//expect(calculator.lifeExpectancy()).toEqual({
+//     getMercury: 100/.24,
+//     getVenus: 100/.62,
+//     getMars: 100/1.88,
+//     getJupiter:100/11.86,
+//  })
+// });
 // test('should correctly determine whether three lengths make a scalene triangle', () => {
 //     const scalTriangle = new Triangle(4,5,7)
 //     expect(scalTriangle.checkType()).toEqual("scalene triangle");

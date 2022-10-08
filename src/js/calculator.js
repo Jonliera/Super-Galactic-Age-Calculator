@@ -19,6 +19,11 @@ getMars(){
 getJupiter(){
     return this.age /11.86;
    }
+
+getMercuryExpect(){
+    //  return this.lifeExpectancy /.24;
+}
+
 //   checkType() {
 //     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
 //       return "not a triangle";
