@@ -5,15 +5,15 @@ export default class Calculator {
 }
 
 getMercury(){
- return this.age /.24;
-}
+    return this.age /.24;
+   }
 
 getVenus(){
     return this.age /.62;
    }
 
-   getMars(){
-    // return this.age /1.88;
+getMars(){
+    return this.age /1.88;
    }
 
 //   checkType() {

@@ -1,7 +1,5 @@
 import Calculator from '../src/js/calculator.js';
 
-// import Triangle from './../src/js/triangle.js';
-
 describe('Calculator', () => {
 
 test('should correctly create a calculator object with a user age and users life expectancy', () => {
@@ -18,7 +16,7 @@ test('should correctly return the users age in venus years /.62', () => {
   const newInput = new Calculator(41,80);
   expect(newInput.getVenus()).toEqual(41/.62);
 });
-test('should correctly return the users age in venus years /.62', () => {
+test('should correctly return the users age in venus years /1.88', () => {
   const newInput = new Calculator(41,80);
   expect(newInput.getMars()).toEqual(41/1.88);
 });
