@@ -8,6 +8,10 @@ getMercury(){
  return this.age /.24;
 }
 
+getVenus(){
+    // return this.age /.62;
+   }
+
 //   checkType() {
 //     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
 //       return "not a triangle";
