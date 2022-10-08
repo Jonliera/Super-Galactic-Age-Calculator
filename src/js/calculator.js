@@ -9,7 +9,7 @@ getMercury(){
 }
 
 getVenus(){
-    // return this.age /.62;
+    return this.age /.62;
    }
 
 //   checkType() {
