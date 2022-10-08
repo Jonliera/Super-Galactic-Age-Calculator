@@ -5,7 +5,7 @@ export default class Calculator {
 }
 
 getMercury(){
-    // return this.age /.24;
+ return this.age /.24;
 }
 
 //   checkType() {
