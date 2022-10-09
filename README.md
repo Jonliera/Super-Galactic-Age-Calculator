@@ -1,6 +1,6 @@
-# _Template Repo_
+# _Super Galactic Age Calculator_
 
-#### _Template to create projects using an enviroment with multiple packages managed by npm, and webpack to bundle our source code._ 
+#### _An app that uses javascript to calculate a useer's age on various planets._ 
 
 #### By_** Jonathan Liera**_
 
@@ -11,9 +11,10 @@
 * _CSS_
 * _eslint_
 * _jest_
-
+* _Markdown_
 
 ## Description
+Space Age Calculator is an application that lets the user input their age and life expectancy. The application takes the inputted information and calculates the users age in Mercury, Venus, Mars and Jupiter.It also caluclates how many years a user has left on each planet.
 
 ## Setup/Installation Requirements
 
