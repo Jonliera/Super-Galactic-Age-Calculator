@@ -35,6 +35,10 @@ test('should correctly return life expectancy on mars', () => {
   const newInput = new Calculator(41,100);
  expect(newInput.getMarsExpect()).toEqual(100/1.88);
 });
+test('should correctly return life expectancy on jupiter', () => {
+  const newInput = new Calculator(41,100);
+ expect(newInput.getJupiterExpect()).toEqual(100/11.86);
+});
 
 
 
