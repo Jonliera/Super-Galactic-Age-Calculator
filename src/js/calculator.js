@@ -25,7 +25,7 @@ getMercuryExpect(){
 }
 
 getVenusExpect(){
-    // return this.lifeExpectancy /.62;
+     return this.lifeExpectancy /.62;
 }
 // getPlanetExpect(){
 //     const lifeEcpectancy = {
