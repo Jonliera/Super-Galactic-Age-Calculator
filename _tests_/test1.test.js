@@ -29,6 +29,23 @@ test('should correctly return life expectancy on mercury', () => {
   expect(newInput.getMercuryExpect()).toEqual(100/.24);
 });
 
+test('should correctly return life expectancy on venus', () => {
+  const newInput = new Calculator(41,100);
+ expect(newInput.getVenusExpect()).toEqual(100/.62);
+});
+
+
+
+
+
+
+
+
+
+// test('should correctly return life expectancy on mercury and mars', () => {
+//   const lifeExpect = new Calculator(41,100);
+//  expect(lifeExpect.getPlanetExpect()).toEqual(100/.24);
+// });
 
 //expect(calculator.lifeExpectancy()).toEqual({
 //     getMercury: 100/.24,
