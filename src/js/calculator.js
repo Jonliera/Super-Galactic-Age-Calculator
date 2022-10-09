@@ -21,7 +21,7 @@ getJupiter(){
    }
 
 getMercuryExpect(){
-      return this.lifeExpectancy /.24;
+    return this.lifeExpectancy /.24;
 }
 
 getVenusExpect(){
@@ -45,5 +45,5 @@ getMarsLeft(){
 }
 getJupiterLeft(){
     return (this.lifeExpectancy/11.86) - (this.age/11.86);
- }
- }
+}
+}
