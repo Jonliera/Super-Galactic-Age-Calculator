@@ -32,7 +32,7 @@ getMarsExpect(){
     return this.lifeExpectancy /1.88;
 }
 getJupiterExpect(){
-    // return this.lifeExpectancy /11.86;
+    return this.lifeExpectancy /11.86;
 }
 // getPlanetExpect(){
 //     const lifeEcpectancy = {
