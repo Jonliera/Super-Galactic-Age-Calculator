@@ -1,6 +1,6 @@
 # _Super Galactic Age Calculator_
 
-#### _An app that uses javascript to calculate a useer's age on various planets._ 
+#### _An app that uses javascript to calculate a user's age on various planets._ 
 
 #### By_** Jonathan Liera**_
 
