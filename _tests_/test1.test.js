@@ -44,7 +44,11 @@ test('should correctly return users years left in mercury', () => {
  expect(newInput.getMercuryLeft()).toEqual((100/.24)-(41/.24)
  );
 });
-
+test('should correctly return users years left in venus', () => {
+  const newInput = new Calculator(41,100);
+ expect(newInput.getVenusLeft()).toEqual((100/.62)-(41/.62)
+ );
+});
 
 
 
