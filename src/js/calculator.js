@@ -34,6 +34,9 @@ getMarsExpect(){
 getJupiterExpect(){
     return this.lifeExpectancy /11.86;
 }
+getMercuryLeft(){
+    //return (this.lifeExpectancy/.24) - (this.age/.24);
+}
 // getPlanetExpect(){
 //     const lifeEcpectancy = {
 //         mercury :getMercuryreturn this.lifeExpectancy /.24;
