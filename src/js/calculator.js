@@ -40,6 +40,9 @@ getMercuryLeft(){
 getVenusLeft(){
    return (this.lifeExpectancy/.62) - (this.age/.62);
 }
+getMarsLeft(){
+   //return (this.lifeExpectancy/1.88) - (this.age/1.88);
+}
 
 // getPlanetExpect(){
 //     const lifeEcpectancy = {
