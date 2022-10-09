@@ -53,7 +53,7 @@ test('should correctly return users years left in Mars', () => {
   const newInput = new Calculator(41,100);
  expect(newInput.getMarsLeft()).toEqual((100/1.88)-(41/1.88));
 });
-test('should correctly return users years left in Jupoter', () => {
+test('should correctly return users years left in Jupiter', () => {
   const newInput = new Calculator(41,100);
  expect(newInput.getJupiterLeft()).toEqual((100/11.86)-(41/11.86));
 });

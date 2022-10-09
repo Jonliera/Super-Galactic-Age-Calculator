@@ -44,6 +44,6 @@ getMarsLeft(){
    return (this.lifeExpectancy/1.88) - (this.age/1.88);
 }
 getJupiterLeft(){
-    //return (this.lifeExpectancy/11.86) - (this.age/11.86);
+    return (this.lifeExpectancy/11.86) - (this.age/11.86);
  }
  }
