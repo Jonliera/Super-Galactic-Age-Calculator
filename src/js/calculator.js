@@ -43,31 +43,7 @@ getVenusLeft(){
 getMarsLeft(){
    return (this.lifeExpectancy/1.88) - (this.age/1.88);
 }
-
-// getPlanetExpect(){
-//     const lifeEcpectancy = {
-//         mercury :getMercuryreturn this.lifeExpectancy /.24;
-// }
-
-//   checkType() {
-//     if ((this.side1 > (this.side2 + this.side3)) || (this.side2 > (this.side1 + this.side3)) || (this.side3 > (this.side1 + this.side2))) {
-//       return "not a triangle";
-//     } else if ((this.side1 !== this.side2) && ((this.side1 !== this.side3)) && ((this.side2 !== this.side3))) {
-//       return "scalene triangle";
-//     }  else if ((this.side1 === this.side2) && (this.side1 === this.side3)) {
-//       return "equilateral triangle";
-//     } else {
-//       return "isosceles triangle";
-//     }
-//   }    
-// }
-
-// export default class Rectangle {
-//   constructor(side1, side2) {
-//     this.side1 = side1;
-//     this.side2 = side2;
-//   }
-//   getArea() {
-//       return this.side1 * this.side2;
-//   }
+getJupiterLeft(){
+    //return (this.lifeExpectancy/11.86) - (this.age/11.86);
+ }
  }

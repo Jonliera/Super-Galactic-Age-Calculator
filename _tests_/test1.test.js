@@ -53,64 +53,12 @@ test('should correctly return users years left in Mars', () => {
   const newInput = new Calculator(41,100);
  expect(newInput.getMarsLeft()).toEqual((100/1.88)-(41/1.88));
 });
+test('should correctly return users years left in Jupoter', () => {
+  const newInput = new Calculator(41,100);
+ expect(newInput.getJupiterLeft()).toEqual((100/11.86)-(41/11.86));
+});
 
 
-
-
-
-// test('should correctly return life expectancy on mercury and mars', () => {
-//   const lifeExpect = new Calculator(41,100);
-//  expect(lifeExpect.getPlanetExpect()).toEqual(100/.24);
-// });
-
-//expect(calculator.lifeExpectancy()).toEqual({
-//     getMercury: 100/.24,
-//     getVenus: 100/.62,
-//     getMars: 100/1.88,
-//     getJupiter:100/11.86,
-//  })
-// });
-// test('should correctly determine whether three lengths make a scalene triangle', () => {
-//     const scalTriangle = new Triangle(4,5,7)
-//     expect(scalTriangle.checkType()).toEqual("scalene triangle");
-//   });
-//   test('should correctly determine whether three lengths make an isosceles triangle', () => {
-//     const isoscTriangle = new Triangle(5,5,7)
-//     expect(isoscTriangle.checkType()).toEqual("isosceles triangle");
-//   });
-//   test('should correctly determine whether three lengths make an equilateral triangle', () => {
-//     const equiTriangle = new Triangle(5,5,5)
-//     expect(equiTriangle.checkType()).toEqual("equilateral triangle");
-//   });
-//   describe('show how beforeEach() works', () => {
-//     let reusableTriangle;
-//     beforeEach(() => {
-//         reusableTriangle = new Triangle(5, 5, 5);
-//       });
-//       test('should use the resuableTriangle and update the value of one side', () => {
-//         reusableTriangle.side1 = 6;
-//         console.log(reusableTriangle);
-//       });
-//       test('should show how this reusableTriangle is reset to sides of 5', () => {
-//         console.log(reusableTriangle);
-//       });
-//   });
  });
 
 
-// describe('Calcuilator', () => {
-//     let rectangle;
-  
-//     beforeEach(() => {
-//       rectangle = new Rectangle(3,5);
-//     });
-  
-//     test('should correctly create a rectangle object using two sides', () => {
-//       expect(rectangle.side1).toEqual(3);
-//       expect(rectangle.side2).toEqual(5);
-//     });
-  
-//     test('should correctly get the area of a rectangle object', () => {
-//       expect(rectangle.getArea()).toEqual(15);
-//     });
-//   });
